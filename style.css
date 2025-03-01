@@ -54,10 +54,10 @@ body{
     grid-row-end: span 2 ;
 }
 
-.container .buttons button:hover{
+.container .buttons button:active{
     background-color: #313131a8;
 }
-.container .buttons .css-operetor:hover{
+.container .buttons .css-operetor:active{
     background-color: #ecbc6f;
 }
 .container footer{
@@ -136,10 +136,10 @@ body{
     .container .buttons .css-grid{
         grid-row-end: span 2 ;
     }
-    .container .buttons button:hover{
+    .container .buttons button:active{
         background-color: #313131a8;
     }
-    .container .buttons .css-operetor:hover{
+    .container .buttons .css-operetor:active{
         background-color: #ecbc6f;
     }
     .container footer{

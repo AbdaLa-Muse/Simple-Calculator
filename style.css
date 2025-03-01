@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+body{
+    background-color: #dadff7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: #071013;
+    height: 600px;
+    box-shadow: 0px 0px 15px black ;
+    width: 500px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 5fr 0.5fr;
+    padding: 10px 50px;
+
+}
+.container .display{
+    color: lightgray;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   font-size: 2.5em;
+}
+.container .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+
+}
+.container .buttons button{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #313131;
+    color: white;
+    font-size: 1.5em;
+}
+.container .buttons .css-operetor{
+    background-color: #f69906;
+}
+.container .buttons .css-grid-0{
+    grid-column-end: span 2 ;
+}
+.container .buttons .css-grid{
+    grid-row-end: span 2 ;
+}
+
+.container .buttons button:hover{
+    background-color: #313131a8;
+}
+.container .buttons .css-operetor:hover{
+    background-color: #ecbc6f;
+}
+.container footer{
+    width: 100%;
+    height: 100;
+    color: white;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3em;
+}
+.container footer small a{
+    color: white;
+}
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 850px){
+    
+}
+
+
+
+/* oppo A16s */
+
+@media (min-width:284px) and (max-width:575px){
+    body{
+        background-color: #dadff7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container{
+        background-color: #071013;
+        height: 100%;
+        box-shadow: 0px 0px 15px black ;
+        width: 100%;
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 5fr 0.5fr;
+        padding: 10px 10px;
+    
+    }
+    .container .display{
+        color: lightgray;
+       display: flex;
+       justify-content: end;
+       align-items: center;
+       font-size: 2.8em;
+    }
+    .container .buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 6px;
+    }
+    .container .buttons button{
+        width: auto;
+        border-radius: 10px;
+        border: none;
+        background-color: #313131;
+        color: white;
+        font-size: 1.3em;
+    }
+    .container .buttons .css-operetor{
+        background-color: #f69906;
+    }
+    .container .buttons .css-grid-0{
+        grid-column-end: span 2 ;
+    }
+    .container .buttons .css-grid{
+        grid-row-end: span 2 ;
+    }
+    .container .buttons button:hover{
+        background-color: #313131a8;
+    }
+    .container .buttons .css-operetor:hover{
+        background-color: #ecbc6f;
+    }
+    .container footer{
+        width: 100%;
+        height: 100;
+        color: white;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3em;
+    }
+    .container footer small a{
+        color: white;
+    }
+}

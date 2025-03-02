@@ -18,7 +18,7 @@ allBtn.forEach((btn)=>{
 
 function calcuOperations(btn){
     if(btn.value == "="){
-        result= eval(store)
+        result= eval(store).toFixed(4)
         console.log(result)
         display.innerHTML=result
         store=result
